@@ -12,7 +12,6 @@ class HomeController extends AbstractController
     public function index(): Response
     {
 
-        $i=0;
         dd("creer un commit");
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
