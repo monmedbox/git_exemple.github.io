@@ -13,6 +13,8 @@ class HomeController extends AbstractController
     {
 
         dd("phgggfdddppppppppppp");
+        dd("phgggfdddppppppppppp");
+        dd("phgggfdddppppppppppp");
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
         ]);
