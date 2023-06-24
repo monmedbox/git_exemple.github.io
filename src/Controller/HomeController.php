@@ -13,6 +13,9 @@ class HomeController extends AbstractController
     {
 
         dd("creer un commit");
+        dd("creer un commit");
+        dd("creer un commit");
+        dd("creer un commit");
         return $this->render('home/index.html.twig', [
             'controller_name' => 'HomeController',
         ]);
